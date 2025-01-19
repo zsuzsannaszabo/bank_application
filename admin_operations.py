@@ -5,6 +5,7 @@ def remove_user(user_to_be_deleted: str, bank_path: str = "bank.json", auth_path
 # here i need to change the program to make it more efficient
 # heyyya Zsuzsa
 # kajsdnasjkdnjksndkajsdnkjsdnk
+# ne legyel ideges
     with open(bank_path, "r") as f:
         accounts = json.loads(f.read())
 
