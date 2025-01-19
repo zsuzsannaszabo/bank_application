@@ -107,7 +107,7 @@ def transfer_money(sender: str, receiver: str, amount: int, bank_path: str = "ba
     else:
         print("Not enough money to send")
 
-
+# un comentariu aici
 def get_username_by_phone(phone_number: str, clients_path: str = "clients.json"):
     with open(clients_path, "r") as f:
         clients = json.loads(f.read())
